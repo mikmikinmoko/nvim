@@ -3,5 +3,8 @@ return {
   cmd = "ShowkeysToggle",
   opts = {
     maxkeys = 5,
+    labels = {
+      ["<space>"] = "leader",
+    },
   },
 }
