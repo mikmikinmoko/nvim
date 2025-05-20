@@ -5,8 +5,8 @@
 -- Toggle directory using Oil nvim
 vim.keymap.set("n", "-", "<cmd>Oil --float<CR>", { desc = "Open Parent Directory in Oil" })
 
-vim.keymap.set("n", "<C-d", "5j", { noremap = true, silent = true })
-vim.keymap.set("n", "<C-u", "5k", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-d>", "5j", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-u>", "5k", { noremap = true, silent = true })
 
 -- Toggle Tab next and prev and new tab
 vim.keymap.set("n", "<leader>tt", ":tabnew<CR>", { desc = "New Tab" })

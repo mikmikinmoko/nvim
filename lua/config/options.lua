@@ -27,6 +27,7 @@ vim.opt.mouse = "a"
 -- Case-insensitive for searching
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+vim.opt.autoindent = true
 
 vim.opt.signcolumn = "yes"
 
@@ -38,3 +39,5 @@ vim.opt.signcolumn = "yes"
 --  and `:help 'listchars'`
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+
+vim.opt.swapfile = false

@@ -4,11 +4,12 @@ return {
   init = function()
     -- Optional: remap Ctrl+D to visual-multi style
     vim.g.VM_maps = {
-      ["Find Under"] = "<C-d>",
-      ["Find Subword Under"] = "<C-d>",
-      ["Select All"] = "<C-a>",
-      ["Select Next"] = "<C-d>",
-      ["Select Prev"] = "<C-p>",
+      ["Find Under"] = "<A-d>",
+      ["Find Subword Under"] = "<A-d>",
+      ["Select All"] = "<A-a>",
+      ["Select Next"] = "<A-d>",
+      ["Select Prev"] = "<A-p>",
+      ["Skip"] = "<A-s>",
       ["Exit"] = "<Esc>",
     }
   end,
