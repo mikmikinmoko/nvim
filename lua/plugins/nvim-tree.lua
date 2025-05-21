@@ -1,4 +1,7 @@
+-- lua/plugins/disable-nvim-tree.lua
 return {
-  "nvim-tree/nvim-tree.lua",
-  enabled = false,
+  {
+    "nvim-tree/nvim-tree.lua",
+    enabled = false,
+  },
 }
